@@ -49,8 +49,15 @@ h2,h3 {
 }
 
 h2 {
+  font-weight: 500;
   font-size: clamp(16px, 2vw, 20px);
 }
+h4 {
+  font-size: clamp(16px, 2vw, 18px);
+  font-weight: 500;
+  color: var(--color-000);
+}
+
 
 h3,h5 {
   color: var(--color-000);
@@ -58,8 +65,12 @@ h3,h5 {
 }
 
 a {
-  color: inherit;
+  color: var(--color-001);
   text-decoration: none;
   width: auto;
   height: auto;
+}
+
+a:hover {
+  text-decoration: underline;
 }

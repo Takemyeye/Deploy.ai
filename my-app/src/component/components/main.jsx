@@ -1,4 +1,11 @@
+import React from "react"
+
+    const img = {
+        abstract: "img/abstract.png"
+    }
+
 export function Main () {
+
     return (
         <div className="main">
             <div className="leftPanel">
@@ -10,7 +17,7 @@ export function Main () {
                 </div>
             </div>
             <div className="rightPanel">
-                <img src="" alt="" />
+                <img src={img.abstract} alt="eh" />
             </div>
         </div>
     )
