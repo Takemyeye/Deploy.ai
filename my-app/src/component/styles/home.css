@@ -20,7 +20,7 @@ main {
 }
 
 .leftPanel {
-    width: 450px;
+    width: 500px;
     height: 50vh;
     display: flex;
     align-items: center;
