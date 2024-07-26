@@ -56,3 +56,17 @@ header {
 .nav-bar span:hover {
     color: var(--color-001);
 }
+
+@media all and (max-width: 510px) {
+    header{
+        justify-content: center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .nav-bar {
+        right: 0;
+    }
+}

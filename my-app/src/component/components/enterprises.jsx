@@ -1,15 +1,15 @@
 import React from "react"
 import { EllementUnit } from "./ellementUnit"
+import { TextUnit } from "./textUnit"
 import "./styles/possibilities.css"
 
 export function Enterprises () {
 
     return (
         <div className="possibilities">
-            <div className="text">
-                <h1>Unlock New Possibilities</h1>
-                <h4>Leverage the power of AI to drive innovation and transform your business. Unlock new opportunities and stay ahead of the competition.</h4>
-            </div>
+            <TextUnit 
+                h1="Unlock New Possibilities"
+                h4="Leverage the power of AI to drive innovation and transform your business. Unlock new opportunities and stay ahead of the competition."/>
             <div className="ellement">
                <EllementUnit 
                     h2="Intelligent Automation" 

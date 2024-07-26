@@ -72,3 +72,28 @@ main {
 .btn:hover {
     background-color: rgba(245, 245, 245, 0.74);
 }
+
+@media all and ( max-width: 1024px ) {
+    .main {
+        justify-content:  space-evenly;
+        flex-direction: column;
+        padding-bottom: 0;
+        gap: 0;
+    }
+
+    .leftPanel {
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 510px) {
+    .rightPanel img {
+        width: 300px;
+        height: 300px;
+        opacity: 0.9;
+    }
+
+    .rightPanel {
+        height: auto;
+    }
+}

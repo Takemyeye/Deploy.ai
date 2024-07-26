@@ -1,5 +1,6 @@
 import React from "react"
 import { EllementUnit } from "./ellementUnit"
+import { TextUnit } from "./textUnit"
 import "./styles/possibilities.css"
 
 
@@ -7,10 +8,9 @@ export function Possibilities () {
 
     return (
         <div className="possibilities">
-            <div className="text">
-                <h1>Effortless AI Deployment</h1>
-                <h4>Streamline your AI deployment process with our intuitive platform. Seamlessly integrate AI models into your applications and scale with ease.</h4>
-            </div>
+            <TextUnit 
+                h1="Effortless AI Deployment"
+                h4="Streamline your AI deployment process with our intuitive platform. Seamlessly integrate AI models into your applications and scale with ease."/>
             <div className="ellement">
                <EllementUnit 
                     h2="Rapid Deployment" 

@@ -33,3 +33,23 @@
     flex-direction: column;
     gap: 8px;
 }
+
+@media all and (max-width: 1024px) {
+    .possibilities {
+        padding: 4rem 0 6rem;
+    }
+
+    .text {
+        width: 50%;
+        gap: 1rem;
+    }
+
+    .ellement {
+        flex-direction: column;
+        width: 60%;
+    }
+    
+    .ellementContainer {
+        width: 100%;
+    }
+}
